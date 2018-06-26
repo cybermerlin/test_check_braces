@@ -34,3 +34,8 @@ function check1(s) {
 
 	return c===0 && q ===0 && f===0;
 }
+
+// проверяем гибкость ума
+function check2(s) {
+	return s.split('(').length == s.split(')').length && s.split('{').length == s.split('}').length && s.split('[').length == s.split(']').length
+}
